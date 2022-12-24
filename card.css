@@ -1,0 +1,180 @@
+.hero-section {
+  padding-top: 10rem;
+}
+
+.card {
+  background-color: lightgreen;
+  background-color: #6320ee;
+  display: flex;
+
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  flex-direction: column;
+}
+
+.btn--card {
+  background-color: white;
+  /* color: green; */
+  color: #6320ee;
+  width: 17rem;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img {
+  width: 24rem;
+}
+
+.main-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+  width: 58%;
+  margin-top: 4rem;
+}
+
+.card-category {
+  /* font-size: 3rem; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.card-text {
+  font-size: 3.6rem;
+  width: 70%;
+  line-height: 1.2;
+  color: white;
+  font-weight: 600;
+}
+
+.forwardArrow,
+.backwardArrow {
+  font-size: 3rem;
+  /* color: blue; */
+  color: #6320ee;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* margin-left: 20rem; */
+}
+
+/* Card2 */
+
+/* .card2 {
+  margin-top: 9.6rem;
+  background-color: #6320ee;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  flex-direction: column;
+} */
+
+.card-img-ovl {
+  width: 24rem;
+}
+
+/* card3 */
+/* .card3 {
+  margin-top: 9.6rem;
+  background-color: #6320ee;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  flex-direction: column;
+} */
+
+/*  */
+.card.active {
+  display: block;
+}
+
+.card {
+  display: none;
+}
+
+
+.card{
+  width: 32rem;
+}
+.btn--card,
+.btn--card:link,
+.btn--card:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 34em) {
+  .main-area {
+    flex-direction: column-reverse;
+    gap: 4.8rem;
+    /* align-items: baseline; */
+    width: 75%;
+  }
+  .card-img {
+    width: 20rem;
+  }
+
+  .card-category {
+    font-size: 2.4rem;
+  }
+
+  .card-text {
+    width: 100%;
+    font-size: 2.4rem;
+  }
+
+  .forwardArrow,
+  .backwardArrow {
+    font-size: 1.6rem;
+  }
+
+  .arrow {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .btn--card,
+  .btn--card:link,
+  .btn--card:visited {
+    font-size: 1.6rem;
+    padding: 1.6rem 1.6rem;
+    width: 12rem;
+  }
+
+  .text-area{
+    align-items: center;
+  }
+}
